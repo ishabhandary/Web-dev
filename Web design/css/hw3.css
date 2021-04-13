@@ -1,0 +1,137 @@
+
+
+
+
+body{
+
+	padding:1%;
+	margin:0.5%;
+	background-color: rgb(0, 255, 255);
+}
+
+header{
+	background-color: #FFFF61;
+	background-image: url('../images/flywheel.jpg');
+	padding-bottom:3%;
+	background-repeat: no-repeat;
+    background-size:cover;
+
+}
+a{
+	color:#df345a;
+}
+
+h1{
+	text-align:center;
+    color:#ffffff;
+    font-size:175%;
+    text-transform: uppercase;
+    padding-top:2%;
+}
+
+nav a{
+    
+    display: inline-block;
+	text-decoration:none;
+	border-radius:10%;
+	margin:0 4%;
+	padding:1% 4%;
+	color:#000000;
+	background-color: #974378;
+	opacity: 0.8;
+	font-weight:bolder;
+}
+
+.active{
+
+	background-color: #FFFFFF;
+	color: #25ad67;
+}
+
+.left{
+
+	background-color: #df345a;
+	display:inline-block;
+	float:left;
+	width:20%;
+	margin-right:2%;
+}
+
+.right{
+display: inline-block;
+width:60%;
+
+}
+
+
+.left img{
+	border-style: solid;
+	border-color: #000000;
+	border-width:5px;
+	width:200px;
+    margin:45px auto;
+    display: block;
+   
+}
+
+
+table{
+	font-family: Arial,"Times New Roman";
+	font-size:90%;
+	font-weight:600;
+	line-height:0.5cm;
+	width:80%;
+	margin:0 auto;
+
+
+}
+
+tr{
+
+	opacity:0.8;
+	text-align:center;
+	background: #0A9FD9 ;
+
+}
+
+table th{
+    background-color:#33FFF7;
+    background:-webkit-linear-gradient(#33FFF7,#000000);
+    background:-moz-linear-gradient(#33FFF7,#000000);
+    background:-o-linear-gradient(#33FFF7,#000000);
+	background:linear-gradient(#33FFF7,#000000);
+	color: #ffffff;
+	border:solid #0FB439;
+	border-radius:20% 20% 0 0;
+	border-width:4px 4px 8px 4px;
+	padding:10px;
+	font-weight:900;
+	font-family:cursive,Impact, Charcoal, sans-serif;
+	text-shadow: 2px 3px #FF0000;
+	text-transform: uppercase;
+}
+
+tr th,td:first-child{
+	text-align:left;
+}
+
+tr:hover{
+	opacity: 1;
+}
+
+td{
+
+	padding:10px;
+	color: #010507;
+    background: #0A9FD9 ;
+    border-radius: 2px;
+    text-shadow:1px 2px #4B5153 ;
+    border:solid #000000 1px;
+    box-shadow: 0 0 6px #4B5153;
+
+}
+
+p {
+font-size: 18px;
+width: 100%;
+}
